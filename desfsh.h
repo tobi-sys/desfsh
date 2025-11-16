@@ -22,6 +22,8 @@
 
 #include <freefare.h>
 
+/* [rp]*/
+#define FreefareTag MifareTag
 
 extern FreefareTag tag;
 

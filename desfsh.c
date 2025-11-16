@@ -32,6 +32,8 @@
 
 #define MAXDEVS		16
 
+/* [rp]*/
+#define MIFARE_DESFIRE DESFIRE
 
 static int help = 0;
 static const char *devstr = NULL;

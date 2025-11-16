@@ -23,6 +23,8 @@
 #include <lua.h>
 #include <freefare.h>
 
+/* [rp]*/
+#define FreefareTag MifareTag
 
 extern int desflua_get_comm(lua_State *l, int idx, uint8_t *comm);
 extern int desflua_get_acl(lua_State *l, int idx, uint16_t *acl);
